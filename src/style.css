@@ -17,7 +17,7 @@ html, body {
   overflow: hidden;
 }
 
-#title {
+/*#title {
   position: absolute;
   top: 4vh;
   width: 100%;
@@ -30,16 +30,16 @@ html, body {
   letter-spacing: 1px;
   user-select: none;
   pointer-events: none;
-}
+}*/
 
 #subtitle {
   position: absolute;
-  top: 10vh;
+  bottom: 4vh;
   width: 100%;
   text-align: center;
-  font-weight: 400;
-  font-size: 1.2rem;
-  color: #ffffffdd;
+  font-weight: 300; /* mais fino */
+  font-size: 1.4rem; /* um pouco maior */
+  color: #ffffffcc;
   z-index: 3;
   font-style: italic;
   letter-spacing: 0.5px;
@@ -59,7 +59,7 @@ canvas#canvas {
   border-radius: 0 !important;
 }
 
-#swap-btn {
+/*#swap-btn {
   position: absolute;
   bottom: 5vh;
   left: 50%;
@@ -74,7 +74,7 @@ canvas#canvas {
   cursor: pointer;
   z-index: 4;
   transition: transform 0.2s;
-}
+}*/
 
 #swap-btn:hover {
   transform: translateX(-50%) scale(1.1);
