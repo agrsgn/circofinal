@@ -37,8 +37,8 @@ html, body {
   bottom: 4vh;
   width: 100%;
   text-align: center;
-  font-weight: 300; /* mais fino */
-  font-size: 1.4rem; /* um pouco maior */
+  font-weight: 200; /* mais fino */
+  font-size: 1.8rem; /* um pouco maior */
   color: #ffffffcc;
   z-index: 3;
   font-style: italic;
